@@ -1,0 +1,44 @@
+apiVersion: v1
+entries:
+  traefik:
+  - annotations:
+      artifacthub.io/changes: "- \"release: \U0001F680 publish v23.1.0\"\n- \"feat:
+        ✨ add a warning when labelSelector don't match\"\n- \"feat: add optional `appProtocol`
+        field on Service ports\"\n- \"feat: ➖ remove Traefik Hub v1 integration\"\n-
+        \"feat: allow specifying service loadBalancerClass\"\n- \"feat: common labels
+        for all resources\"\n- \"fix: \U0001F41B use k8s version for hpa api version\"\n-
+        \"fix: \U0001F41B http3 support on traefik v3\"\n- \"fix: use `targetPort`
+        instead of `port` on ServiceMonitor\"\n- \"doc: added values README via helm-docs
+        cli\"\n"
+    apiVersion: v2
+    appVersion: v2.10.1
+    created: "2023-07-10T16:48:18.156355004+06:30"
+    description: A Traefik based Kubernetes ingress controller
+    digest: 1a7152ef5e81a972c51c0158eb810a70155cce2032fc788e6e771d680fe5ec08
+    home: https://traefik.io/
+    icon: https://raw.githubusercontent.com/traefik/traefik/v2.3/docs/content/assets/img/traefik.logo.png
+    keywords:
+    - traefik
+    - ingress
+    - networking
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: emile@vauge.com
+      name: emilevauge
+    - email: daniel.tomcej@gmail.com
+      name: dtomcej
+    - email: ldez@traefik.io
+      name: ldez
+    - email: michel.loiseleur@traefik.io
+      name: mloiseleur
+    - email: charlie.haley@traefik.io
+      name: charlie-haley
+    name: traefik
+    sources:
+    - https://github.com/traefik/traefik
+    - https://github.com/traefik/traefik-helm-chart
+    type: application
+    urls:
+    - https://nyinyizaw-nav.github.io/helm-chart/traefik-23.1.0.tgz
+    version: 23.1.0
+generated: "2023-07-10T16:48:18.148702797+06:30"
